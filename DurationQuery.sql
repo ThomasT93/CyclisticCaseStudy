@@ -1,0 +1,7 @@
+--SELECT
+--	*,
+--	DATEDIFF(minute, started_at, ended_at) AS Duration
+--FROM
+--CaseStudy_1.dbo.jan_trips
+--ORDER BY
+--Duration

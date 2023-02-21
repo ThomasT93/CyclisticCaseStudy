@@ -1,0 +1,26 @@
+--UPDATE CaseStudy_1.dbo.dec_trips
+--   SET ["ride_id"] = Replace(["ride_id"],'"','')
+--UPDATE CaseStudy_1.dbo.dec_trips
+--   SET ["rideable_type"] = Replace(["rideable_type"],'"','')
+--UPDATE CaseStudy_1.dbo.dec_trips
+--   SET ["started_at"] = Replace(["started_at"],'"','')
+--UPDATE CaseStudy_1.dbo.dec_trips
+--   SET ["ended_at"] = Replace(["ended_at"],'"','')
+--UPDATE CaseStudy_1.dbo.dec_trips
+--   SET ["start_station_name"] = Replace(["start_station_name"],'"','')
+--UPDATE CaseStudy_1.dbo.dec_trips
+--   SET ["start_station_id"] = Replace(["start_station_id"],'"','')
+--UPDATE CaseStudy_1.dbo.dec_trips
+--   SET ["end_station_name"] = Replace(["end_station_name"],'"','')
+--UPDATE CaseStudy_1.dbo.dec_trips
+--   SET ["end_station_id"] = Replace(["end_station_id"],'"','')
+--UPDATE CaseStudy_1.dbo.dec_trips
+--   SET ["start_lat"] = Replace(["start_lat"],'"','')
+--UPDATE CaseStudy_1.dbo.dec_trips
+--   SET ["start_lng"] = Replace(["start_lng"],'"','')
+--UPDATE CaseStudy_1.dbo.dec_trips
+--   SET ["end_lat"] = Replace(["end_lat"],'"','')
+--UPDATE CaseStudy_1.dbo.dec_trips
+--   SET ["end_lng"] = Replace(["end_lng"],'"','')
+--UPDATE CaseStudy_1.dbo.dec_trips
+--   SET ["member_casual"] = Replace(["member_casual"],'"','')

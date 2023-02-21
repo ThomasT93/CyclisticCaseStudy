@@ -1,0 +1,267 @@
+--CREATE TABLE
+--	OverallData(
+--	MembershipType varchar(50),
+--	BikeType varchar(50),
+--	StartTimeStamp datetime,
+--	StartTime time,
+--	StartDate date,
+--	StartDay varchar(50),
+--	StartMonth varchar(50),
+--	ReturnTimeStamp datetime,
+--	ReturnTime time,
+--	ReturnDate date,
+--	ReturnDay varchar(50),
+--	ReturnMonth varchar(50),
+--	Duration int)
+
+--INSERT INTO
+-- 	CaseStudy_1.dbo.OverallData
+--SELECT
+--	member_casual AS MembershipType,
+--  	rideable_type AS BikeType,
+--	CAST(started_at as datetime) AS StartTimeStamp,
+--	CAST(started_at as time) AS StartTime,
+--	CAST(started_at as date) AS StartDate,
+--	DATENAME(weekday, started_at) AS StartDay,
+--	DATENAME(month, started_at) AS StartMonth,
+--	CAST(ended_at as datetime) AS ReturnTimeStamp,
+--	CAST(ended_at as time) AS ReturnTime,
+--	CAST(ended_at as date) AS ReturnDate,
+--	DATENAME(weekday, ended_at) AS ReturnDay,
+--	DATENAME(month, ended_at) AS ReturnMonth,
+--	DATEDIFF(minute, started_at, ended_at) AS Duration
+--FROM
+--  CaseStudy_1.dbo.jan_trips
+--ORDER BY
+--  StartDate
+
+--INSERT INTO
+-- 	CaseStudy_1.dbo.OverallData
+--SELECT
+--	member_casual AS MembershipType,
+--  	rideable_type AS BikeType,
+--	CAST(started_at as datetime) AS StartTimeStamp,
+--	CAST(started_at as time) AS StartTime,
+--	CAST(started_at as date) AS StartDate,
+--	DATENAME(weekday, started_at) AS StartDay,
+--	DATENAME(month, started_at) AS StartMonth,
+--	CAST(ended_at as datetime) AS ReturnTimeStamp,
+--	CAST(ended_at as time) AS ReturnTime,
+--	CAST(ended_at as date) AS ReturnDate,
+--	DATENAME(weekday, ended_at) AS ReturnDay,
+--	DATENAME(month, ended_at) AS ReturnMonth,
+--	DATEDIFF(minute, started_at, ended_at) AS Duration
+--FROM
+--  CaseStudy_1.dbo.feb_trips
+--ORDER BY
+--  StartDate
+
+--INSERT INTO
+-- 	CaseStudy_1.dbo.OverallData
+--SELECT
+--	member_casual AS MembershipType,
+--  	rideable_type AS BikeType,
+--	CAST(started_at as datetime) AS StartTimeStamp,
+--	CAST(started_at as time) AS StartTime,
+--	CAST(started_at as date) AS StartDate,
+--	DATENAME(weekday, started_at) AS StartDay,
+--	DATENAME(month, started_at) AS StartMonth,
+--	CAST(ended_at as datetime) AS ReturnTimeStamp,
+--	CAST(ended_at as time) AS ReturnTime,
+--	CAST(ended_at as date) AS ReturnDate,
+--	DATENAME(weekday, ended_at) AS ReturnDay,
+--	DATENAME(month, ended_at) AS ReturnMonth,
+--	DATEDIFF(minute, started_at, ended_at) AS Duration
+--FROM
+--  CaseStudy_1.dbo.mar_trips
+--ORDER BY
+--  StartDate
+
+--INSERT INTO
+-- 	CaseStudy_1.dbo.OverallData
+--SELECT
+--	member_casual AS MembershipType,
+--  	rideable_type AS BikeType,
+--	CAST(started_at as datetime) AS StartTimeStamp,
+--	CAST(started_at as time) AS StartTime,
+--	CAST(started_at as date) AS StartDate,
+--	DATENAME(weekday, started_at) AS StartDay,
+--	DATENAME(month, started_at) AS StartMonth,
+--	CAST(ended_at as datetime) AS ReturnTimeStamp,
+--	CAST(ended_at as time) AS ReturnTime,
+--	CAST(ended_at as date) AS ReturnDate,
+--	DATENAME(weekday, ended_at) AS ReturnDay,
+--	DATENAME(month, ended_at) AS ReturnMonth,
+--	DATEDIFF(minute, started_at, ended_at) AS Duration
+--FROM
+--  CaseStudy_1.dbo.apr_trips
+--ORDER BY
+--  StartDate
+
+--INSERT INTO
+-- 	CaseStudy_1.dbo.OverallData
+--SELECT
+--	member_casual AS MembershipType,
+--  	rideable_type AS BikeType,
+--	CAST(started_at as datetime) AS StartTimeStamp,
+--	CAST(started_at as time) AS StartTime,
+--	CAST(started_at as date) AS StartDate,
+--	DATENAME(weekday, started_at) AS StartDay,
+--	DATENAME(month, started_at) AS StartMonth,
+--	CAST(ended_at as datetime) AS ReturnTimeStamp,
+--	CAST(ended_at as time) AS ReturnTime,
+--	CAST(ended_at as date) AS ReturnDate,
+--	DATENAME(weekday, ended_at) AS ReturnDay,
+--	DATENAME(month, ended_at) AS ReturnMonth,
+--	DATEDIFF(minute, started_at, ended_at) AS Duration
+--FROM
+--  CaseStudy_1.dbo.may_trips
+--ORDER BY
+--  StartDate
+
+--INSERT INTO
+-- 	CaseStudy_1.dbo.OverallData
+--SELECT
+--	member_casual AS MembershipType,
+--  	rideable_type AS BikeType,
+--	CAST(started_at as datetime) AS StartTimeStamp,
+--	CAST(started_at as time) AS StartTime,
+--	CAST(started_at as date) AS StartDate,
+--	DATENAME(weekday, started_at) AS StartDay,
+--	DATENAME(month, started_at) AS StartMonth,
+--	CAST(ended_at as datetime) AS ReturnTimeStamp,
+--	CAST(ended_at as time) AS ReturnTime,
+--	CAST(ended_at as date) AS ReturnDate,
+--	DATENAME(weekday, ended_at) AS ReturnDay,
+--	DATENAME(month, ended_at) AS ReturnMonth,
+--	DATEDIFF(minute, started_at, ended_at) AS Duration
+--FROM
+--  CaseStudy_1.dbo.jun_trips
+--ORDER BY
+--  StartDate
+
+--INSERT INTO
+-- 	CaseStudy_1.dbo.OverallData
+--SELECT
+--	member_casual AS MembershipType,
+--  	rideable_type AS BikeType,
+--	CAST(started_at as datetime) AS StartTimeStamp,
+--	CAST(started_at as time) AS StartTime,
+--	CAST(started_at as date) AS StartDate,
+--	DATENAME(weekday, started_at) AS StartDay,
+--	DATENAME(month, started_at) AS StartMonth,
+--	CAST(ended_at as datetime) AS ReturnTimeStamp,
+--	CAST(ended_at as time) AS ReturnTime,
+--	CAST(ended_at as date) AS ReturnDate,
+--	DATENAME(weekday, ended_at) AS ReturnDay,
+--	DATENAME(month, ended_at) AS ReturnMonth,
+--	DATEDIFF(minute, started_at, ended_at) AS Duration
+--FROM
+--  CaseStudy_1.dbo.jul_trips
+--ORDER BY
+--  StartDate
+
+--INSERT INTO
+-- 	CaseStudy_1.dbo.OverallData
+--SELECT
+--	member_casual AS MembershipType,
+--  	rideable_type AS BikeType,
+--	CAST(started_at as datetime) AS StartTimeStamp,
+--	CAST(started_at as time) AS StartTime,
+--	CAST(started_at as date) AS StartDate,
+--	DATENAME(weekday, started_at) AS StartDay,
+--	DATENAME(month, started_at) AS StartMonth,
+--	CAST(ended_at as datetime) AS ReturnTimeStamp,
+--	CAST(ended_at as time) AS ReturnTime,
+--	CAST(ended_at as date) AS ReturnDate,
+--	DATENAME(weekday, ended_at) AS ReturnDay,
+--	DATENAME(month, ended_at) AS ReturnMonth,
+--	DATEDIFF(minute, started_at, ended_at) AS Duration
+--FROM
+--  CaseStudy_1.dbo.aug_trips
+--ORDER BY
+--  StartDate
+
+--INSERT INTO
+-- 	CaseStudy_1.dbo.OverallData
+--SELECT
+--	member_casual AS MembershipType,
+--  	rideable_type AS BikeType,
+--	CAST(started_at as datetime) AS StartTimeStamp,
+--	CAST(started_at as time) AS StartTime,
+--	CAST(started_at as date) AS StartDate,
+--	DATENAME(weekday, started_at) AS StartDay,
+--	DATENAME(month, started_at) AS StartMonth,
+--	CAST(ended_at as datetime) AS ReturnTimeStamp,
+--	CAST(ended_at as time) AS ReturnTime,
+--	CAST(ended_at as date) AS ReturnDate,
+--	DATENAME(weekday, ended_at) AS ReturnDay,
+--	DATENAME(month, ended_at) AS ReturnMonth,
+--	DATEDIFF(minute, started_at, ended_at) AS Duration
+--FROM
+--  CaseStudy_1.dbo.sep_trips
+--ORDER BY
+--  StartDate
+
+--INSERT INTO
+-- 	CaseStudy_1.dbo.OverallData
+--SELECT
+--	member_casual AS MembershipType,
+--  	rideable_type AS BikeType,
+--	CAST(started_at as datetime) AS StartTimeStamp,
+--	CAST(started_at as time) AS StartTime,
+--	CAST(started_at as date) AS StartDate,
+--	DATENAME(weekday, started_at) AS StartDay,
+--	DATENAME(month, started_at) AS StartMonth,
+--	CAST(ended_at as datetime) AS ReturnTimeStamp,
+--	CAST(ended_at as time) AS ReturnTime,
+--	CAST(ended_at as date) AS ReturnDate,
+--	DATENAME(weekday, ended_at) AS ReturnDay,
+--	DATENAME(month, ended_at) AS ReturnMonth,
+--	DATEDIFF(minute, started_at, ended_at) AS Duration
+--FROM
+--  CaseStudy_1.dbo.oct_trips
+--ORDER BY
+--  StartDate
+
+--INSERT INTO
+-- 	CaseStudy_1.dbo.OverallData
+--SELECT
+--	member_casual AS MembershipType,
+--  	rideable_type AS BikeType,
+--	CAST(started_at as datetime) AS StartTimeStamp,
+--	CAST(started_at as time) AS StartTime,
+--	CAST(started_at as date) AS StartDate,
+--	DATENAME(weekday, started_at) AS StartDay,
+--	DATENAME(month, started_at) AS StartMonth,
+--	CAST(ended_at as datetime) AS ReturnTimeStamp,
+--	CAST(ended_at as time) AS ReturnTime,
+--	CAST(ended_at as date) AS ReturnDate,
+--	DATENAME(weekday, ended_at) AS ReturnDay,
+--	DATENAME(month, ended_at) AS ReturnMonth,
+--	DATEDIFF(minute, started_at, ended_at) AS Duration
+--FROM
+--  CaseStudy_1.dbo.nov_trips
+--ORDER BY
+--  StartDate
+
+--INSERT INTO
+-- 	CaseStudy_1.dbo.OverallData
+--SELECT
+--	member_casual AS MembershipType,
+--  	rideable_type AS BikeType,
+--	CAST(started_at as datetime) AS StartTimeStamp,
+--	CAST(started_at as time) AS StartTime,
+--	CAST(started_at as date) AS StartDate,
+--	DATENAME(weekday, started_at) AS StartDay,
+--	DATENAME(month, started_at) AS StartMonth,
+--	CAST(ended_at as datetime) AS ReturnTimeStamp,
+--	CAST(ended_at as time) AS ReturnTime,
+--	CAST(ended_at as date) AS ReturnDate,
+--	DATENAME(weekday, ended_at) AS ReturnDay,
+--	DATENAME(month, ended_at) AS ReturnMonth,
+--	DATEDIFF(minute, started_at, ended_at) AS Duration
+--FROM
+--  CaseStudy_1.dbo.dec_trips
+--ORDER BY
+--  StartDate
