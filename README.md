@@ -22,7 +22,7 @@ For you, you might have to change the "FROM" clause in the query to match the ap
 
 Voila! Just like that our data has been extracted, cleaned and transformed!
 
-** The Visuals
+## The Visuals
 
 Now this section I'm not going to go super in depth with as a magician can't tell all of their secrets! Also, the process was relatively similar throughout the process just interchanging some of the columns for the appropriate data visual we were looking for. The key points are;
 
@@ -36,7 +36,7 @@ All of the finalized visuals are available on my [Tableau Public](https://public
 
 If that wasn't enough, feel free to watch [my video](https://youtu.be/cRcd3azdWP0) of me presenting this Case Study to see my thought process, breakdown of the insights and what my suggested solutions would be for the project objective.
 
-* The Finale
+# The Finale
 
 If you took the time to read, watch or do anything that was stated in this ReadMe I just want to say thank you for your time. If you were able to think of ways i could improve on anything i've done here and have left feedback I want to give and even bigger thank you and hope you understand how much i appreciate your help on my journey to be a better analyst. 
 
