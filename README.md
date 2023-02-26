@@ -21,3 +21,23 @@ Once all of the data has been imported you can then start creating your tables a
 For you, you might have to change the "FROM" clause in the query to match the appropriate location in your local database that you created. **Step 1** does most of the heavy lifting for your code as this is the large chunk of code that will create the table where you will aggregate all of the imported data. It will then select, transform and insert the data with the appropriate cleaned parameters (such as splitting the original "started_at" timestamp into 4 seperate StartDay, StartTime, StartMonth and StartDate datapoints) into the table we just created. While cleaning the data I noticed there was an error with the data where a few files had extra characters that was causing issues with conversion between data types. To rememdy this I performed **Step 2** which updated the table by removing the unnecessary characters. The final step was to utilize **Step 3** to create our final vital piece of data, Duration!
 
 Voila! Just like that our data has been extracted, cleaned and transformed!
+
+** The Visuals
+
+Now this section I'm not going to go super in depth with as a magician can't tell all of their secrets! Also, the process was relatively similar throughout the process just interchanging some of the columns for the appropriate data visual we were looking for. The key points are;
+
+1. Color by MembershipType
+2. Count by appropriate data point
+3. Data Label by appropriate data point
+
+Once you follow those steps to create your worksheets, then you clean them up and combine them into a dashboard that appropriately compares them. 
+
+All of the finalized visuals are available on my [Tableau Public](https://public.tableau.com/app/profile/thomas.torres/viz/CyclisticCaseStudy_16773813062730/OverallDashboard#1)
+
+If that wasn't enough, feel free to watch [my video](https://youtu.be/cRcd3azdWP0) of me presenting this Case Study to see my thought process, breakdown of the insights and what my suggested solutions would be for the project objective.
+
+* The Finale
+
+If you took the time to read, watch or do anything that was stated in this ReadMe I just want to say thank you for your time. If you were able to think of ways i could improve on anything i've done here and have left feedback I want to give and even bigger thank you and hope you understand how much i appreciate your help on my journey to be a better analyst. 
+
+If you would like to reachout to me, feel free to connect with me via [LinkedIn](https://www.linkedin.com/in/thomast93/), leaving comments for me in the video linked above, leave comments here or shoot me an email at ThomasT93@live.com.
