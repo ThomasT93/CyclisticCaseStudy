@@ -32,7 +32,7 @@ Now this section I'm not going to go super in depth with as a magician can't tel
 
 Once you follow those steps to create your worksheets, then you clean them up and combine them into a dashboard that appropriately compares them. 
 
-All of the finalized visuals are available on my [Tableau Public](https://public.tableau.com/app/profile/thomas.torres/viz/CyclisticCaseStudy_16773813062730/OverallDashboard#1)
+All of the finalized visuals are available on my [Tableau Public](https://public.tableau.com/app/profile/thomas.torres/viz/CyclisticCaseStudy_16777032931580/OverallDashboard)
 
 If that wasn't enough, feel free to watch [my video](https://youtu.be/cRcd3azdWP0) of me presenting this Case Study to see my thought process, breakdown of the insights and what my suggested solutions would be for the project objective.
 
