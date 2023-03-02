@@ -40,4 +40,4 @@ If that wasn't enough, feel free to watch [my video](https://youtu.be/cRcd3azdWP
 
 If you took the time to read, watch or do anything that was stated in this ReadMe I just want to say thank you for your time. If you were able to think of ways i could improve on anything i've done here and have left feedback I want to give and even bigger thank you and hope you understand how much i appreciate your help on my journey to be a better analyst. 
 
-If you would like to reachout to me, feel free to connect with me via [LinkedIn](https://www.linkedin.com/in/thomast93/), leaving comments for me in the video linked above, leave comments here or shoot me an email at ThomasT93@live.com.
+If you would like to reachout to me, feel free to connect with me via [LinkedIn](https://www.linkedin.com/in/thomast93/), leaving comments for me in the video linked above, leave comments here or shoot me an email at ExplosiveAnalytics@gmail.com.
