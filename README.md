@@ -34,7 +34,7 @@ Once you follow those steps to create your worksheets, then you clean them up an
 
 All of the finalized visuals are available on my [Tableau Public](https://public.tableau.com/app/profile/thomas.torres/viz/CyclisticCaseStudy_16777032931580/OverallDashboard)
 
-If that wasn't enough, feel free to watch [my video](https://youtu.be/cRcd3azdWP0) of me presenting this Case Study to see my thought process, breakdown of the insights and what my suggested solutions would be for the project objective.
+If that wasn't enough, feel free to watch [my video](https://youtu.be/AHLihRQW9nc) of me presenting this Case Study to see my thought process, breakdown of the insights and what my suggested solutions would be for the project objective.
 
 # The Finale
 
